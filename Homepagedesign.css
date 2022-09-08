@@ -2,10 +2,10 @@ h1 {
     text-shadow: 0 0 3px #0073ff;
 }
 
-#createFile:hover {
-    background-color: red;
+#logOut{
+    margin-left: 10px;
 }
 
-#getFile:hover {
-    background-color:red;
+input {
+    margin-bottom: 5px;
 }
