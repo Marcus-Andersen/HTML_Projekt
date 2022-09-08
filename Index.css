@@ -1,3 +1,8 @@
 h1 {
     text-shadow: 0 0 3px #0073ff;
 }
+
+#region{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

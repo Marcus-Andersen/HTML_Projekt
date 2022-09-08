@@ -7,17 +7,15 @@
 </head>
 <body>
 <h1>Sundhedsplatformen</h1>
-<label for="fname">Username</label>
-<input type="text" id="fname" name="fname">
-<div></div>
-<label for="password">Password</label>
-<input type="password" id="password" name="password">
-<div></div>
-<input type="button" value="Login">
-<div></div>
-<img src="https://www.hvidovrehospital.dk/nyt-hospital-hvidovre/PublishingImages/RegH.png" alt="RH" height="200">
-<div></div>
-<a href="https://www.nasa.gov/">IT-Support</a>
+<form method="post" action="http://localhost:63342/HTML_Projekt/HTML%20Projekt/HomePage.html?_ijt=mnmeo7gdvd4ptmirp1dkqbnjl8&_ij_reload=RELOAD_ON_SAVE">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Input username" required><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Input password" required><br>
+    <button type="submit">Login</button> <br>
+    <img src="https://www.hvidovrehospital.dk/nyt-hospital-hvidovre/PublishingImages/RegH.png" alt="RH" height="200" id="region"><br>
+    <a href="https://www.nasa.gov/">IT-Support</a>
+</form>
 
 </body>
 </html>

@@ -1,0 +1,11 @@
+h1 {
+    text-shadow: 0 0 3px #0073ff;
+}
+
+#createFile:hover {
+    background-color: red;
+}
+
+#getFile:hover {
+    background-color:red;
+}
