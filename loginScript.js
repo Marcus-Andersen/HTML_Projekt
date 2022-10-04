@@ -1,2 +1,5 @@
-let submitPress = loginFunction(firstName, lastName){
+function loginFunction(firstName, lastName){
+    if (username == "Parker" && password == "ErSmuk"){
+
+    }
 }
