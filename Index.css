@@ -8,4 +8,12 @@ h1 {
 }
 #loginButton{
     <!--margin-left: 15px;-->
+    width: 55px;
+    height: 30px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px
+}
+#loginButton:hover{
+    opacity: 0.8;
 }
