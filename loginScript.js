@@ -1,7 +1,6 @@
-document.getElementById("loginButton").onclick = function () {
-    const userName = document.getElementById("username");
-    const passWord = document.getElementById("password");
-    window.print(userName, passWord);
+function logintrial() {
+    const userName = document.getElementById("username").value;
+    const passWord = document.getElementById("password").value;
     if (userName == "qq" && passWord == "qq") {
         location.replace("HomePage.html");
     } else {
