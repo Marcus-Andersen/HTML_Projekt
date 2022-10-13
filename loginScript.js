@@ -2,9 +2,14 @@ function logintrial() {
     const userName = document.getElementById("username").value;
     const passWord = document.getElementById("password").value;
     if (userName == "qq" && passWord == "qq") {
-        location.replace("HomePage.html");
+
+        return true;
+
     } else {
-        location.replace("index.html");
+        location.reload();
+        alert("WRONG USERNAME OR PASSWORD!!!!")
+        return false;
     }
 }
+
 
